@@ -22,6 +22,8 @@
 		8FBA4868190143660090ED28 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBA484C190143660090ED28 /* CoreData.framework */; };
 		8FBA4870190143660090ED28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA486E190143660090ED28 /* InfoPlist.strings */; };
 		8FBA4872190143660090ED28 /* firstappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA4871190143660090ED28 /* firstappTests.m */; };
+		8FBA487E190144A80090ED28 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA487C190144A80090ED28 /* MainViewController.m */; };
+		8FBA487F190144A80090ED28 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA487D190144A80090ED28 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8FBA486D190143660090ED28 /* firstappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstappTests-Info.plist"; sourceTree = "<group>"; };
 		8FBA486F190143660090ED28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FBA4871190143660090ED28 /* firstappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstappTests.m; sourceTree = "<group>"; };
+		8FBA487B190144A80090ED28 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8FBA487C190144A80090ED28 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8FBA487D190144A80090ED28 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 			children = (
 				8FBA4857190143660090ED28 /* AppDelegate.h */,
 				8FBA4858190143660090ED28 /* AppDelegate.m */,
+				8FBA487B190144A80090ED28 /* MainViewController.h */,
+				8FBA487C190144A80090ED28 /* MainViewController.m */,
+				8FBA487D190144A80090ED28 /* MainViewController.xib */,
 				8FBA485D190143660090ED28 /* Images.xcassets */,
 				8FBA485A190143660090ED28 /* firstapp.xcdatamodeld */,
 				8FBA484F190143660090ED28 /* Supporting Files */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBA4853190143660090ED28 /* InfoPlist.strings in Resources */,
+				8FBA487F190144A80090ED28 /* MainViewController.xib in Resources */,
 				8FBA485E190143660090ED28 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 				8FBA485C190143660090ED28 /* firstapp.xcdatamodeld in Sources */,
 				8FBA4859190143660090ED28 /* AppDelegate.m in Sources */,
 				8FBA4855190143660090ED28 /* main.m in Sources */,
+				8FBA487E190144A80090ED28 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
